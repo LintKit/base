@@ -1,0 +1,21 @@
+{
+    "name": "app/linter",
+    "type": "library",
+    "version": "0.0.0",
+    "authors": [
+        {
+            "name": "Mike Street",
+            "email": "mike@liquidlight.co.uk"
+        }
+    ],
+    "require": {
+        "symfony/console": "5.4.28",
+        "symfony/finder": "5.4.27",
+        "symfony/translation": "5.4.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiquidLight\\Linter\\": "src"
+        }
+    }
+}
