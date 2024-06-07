@@ -2,7 +2,7 @@
 
 // src/Command/CreateUserCommand.php
 
-namespace LiquidLight\Linter\Command;
+namespace LintKit\Base\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
