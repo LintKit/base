@@ -7,9 +7,10 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 RUN apk add --update --no-cache ${ADDITIONAL_PACKAGES}
 
-COPY ./ /lint
-RUN chmod +x /lint/lint
+COPY ./ /src
+RUN chmod +x /src/lintkit
+RUN ln -s /src/lintkit /lintkit
 
 WORKDIR /app
 
-CMD ["/lint/lint", "run", "-v"]
+CMD ["/lintkit", "-v"]
