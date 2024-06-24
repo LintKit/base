@@ -4,5 +4,7 @@ node_modules
 vendor
 vendor-bin
 
+composer.lock
+
 .DS_Store
 ._*
