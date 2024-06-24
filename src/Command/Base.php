@@ -1,6 +1,6 @@
 <?php
 
-namespace LintKit\Base\Command;
+namespace LintKit\BaseKit\Command;
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Process\Process;

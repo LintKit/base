@@ -2,7 +2,7 @@
 
 // src/Command/CreateUserCommand.php
 
-namespace LintKit\Base\Command;
+namespace LintKit\BaseKit\Command;
 
 use Symfony\Component\Process\Process;
 use Symfony\Component\Console\Command\Command;

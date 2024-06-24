@@ -2,7 +2,7 @@
 
 // src/Command/CreateUserCommand.php
 
-namespace LintKit\Base\Command;
+namespace LintKit\BaseKit\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
